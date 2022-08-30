@@ -1,5 +1,5 @@
 def hello() :
     print("Hello Computer")
-    print("ee")
+    print("Test Successful")
 
 hello()
