@@ -12,7 +12,6 @@ def atMostOne(literals):
 x = [[Bool("x_%i_%i" % (i, j)) for j in range(5)] for i in range(5)]
 
 s = Solver()
-b = Solver()
 
 for i in range(5):
     s.add(Or(x[i]))
